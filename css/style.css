@@ -1,0 +1,16 @@
+header{
+     background-color: blue;text-align: center;margin: 40px;
+}
+p{
+    font-style: oblique;text-decoration: double;background-color: blueviolet;
+}
+nav p{
+    background-color: crimson; border: initial;
+}
+p {
+    border: double;padding: 20px;
+}
+footer{
+    background-color: mediumblue;text-align: center;border: inherit;
+margin-bottom: 50px ;}
+
