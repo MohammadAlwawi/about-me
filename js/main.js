@@ -5,7 +5,7 @@ let userName = prompt('what\'s your name');
 alert ('Hello '+userName+' and welcome to my website');
 let game =prompt('are you ready for a guessing game about me / yes or no ?');
 
-while(game !== 'yes' && game !== 'no' && game!=='y'&& game!=='n'){
+while(game.toLowerCase() !== 'yes' && game.toLowerCase() !== 'no' && game.toLowerCase()!=='y'&& game.toLowerCase()!=='n'){
   game=prompt('please answer yes or no');
 }
 if(game ==='yes' || game==='y') {
@@ -16,10 +16,10 @@ if(game ==='yes' || game==='y') {
   alert('why not? you should do it pro 😡');
 }
 let serious=prompt('Do you think I am serious?');
-while(serious!=='yes' && serious!=='y'&& serious!=='n' && serious!=='no'){
+while(serious.toLowerCase()!=='yes' && serious.toLowerCase()!=='y'&& serious.toLowerCase()!=='n' && serious.toLowerCase()!=='no'){
   serious=prompt('Do you think I am serious? yes or no ');
 }
-if (serious.toLowerCase()==='yes' || serious.toLowerCase()==='y' ){
+if (serious==='yes' || serious==='y' ){
   alert ('we understand each other '+userName);
   score++;
 } else
@@ -27,30 +27,30 @@ if (serious.toLowerCase()==='yes' || serious.toLowerCase()==='y' ){
   alert ('Guess you are wronge 😜 ');
 }
 let nationaltiy=prompt('Am I Jordanain?');
-while(nationaltiy!=='yes' && nationaltiy!=='y'&& nationaltiy!=='n' && nationaltiy!=='no'){
+while(nationaltiy.toLowerCase()!=='yes' && nationaltiy.toLowerCase()!=='y'&& nationaltiy.toLowerCase()!=='n' && nationaltiy.toLowerCase()!=='no'){
   nationaltiy=prompt('please answer yes or no');
 }
-if(nationaltiy.toLocaleLowerCase()==='yes' || nationaltiy.toLowerCase()==='y'){
+if(nationaltiy==='yes' || nationaltiy==='y'){
   alert ('I am a proud of it');
   score++;
 }else{
   alert(' wrong answer');
 }
 let job=prompt('am I Engineer?');
-while (job!=='yes' && job!=='y'&& job!=='n' && job!=='no'){
+while (job.toLowerCase()!=='yes' && job.toLowerCase()!=='y'&& job.toLowerCase()!=='n' && job.toLowerCase()!=='no'){
   job=prompt('could you answer yes or no please?');
 }
-if (job.toLocaleLowerCase()==='yes'|| job.toLowerCase()==='y'){
+if (job==='yes'|| job==='y'){
   alert('that is right 📐');
 }else{
   alert('wrong answer  😜');
   score++;
 }
 let pet=prompt('Do you think I love pet like  🐈 or 🐩?');
-while(pet!=='yes' && pet!=='y'&& pet!=='n' && pet!=='no'){
+while(pet.toLowerCase()!=='yes' && pet.toLowerCase()!=='y'&& pet.toLowerCase()!=='n' && pet.toLowerCase()!=='no'){
   pet=prompt('answer yes or no please');
 }
-if (pet.toLowerCase()==='yes' || pet.toLowerCase()==='y'){
+if (pet==='yes' || pet==='y'){
   alert('I will never love pet');
 }
 else{

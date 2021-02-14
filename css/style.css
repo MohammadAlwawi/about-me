@@ -36,4 +36,16 @@ footer h2{
     background-color: cyan;
     
  }
+ #serious{
+    color: chartreuse;background-color: cornflowerblue;
+ }
+ #nationaltiy{
+    color: cornflowerblue;background-color: crimson;
+ }
+ #job{
+    color: cyan;background-color: black;
+ }
+ #pet{
+    color: darkgreen;background-color:gray;
+ }
 
