@@ -14,3 +14,26 @@ footer{
     background-color: mediumblue;text-align: center;border: inherit;
 margin-bottom: 50px ;}
 
+/**/
+footer h2{
+    text-align: center;color: crimson;
+ }
+ ul img {
+    width: 440px;
+    height: 267px;
+    margin-left: 10px;
+ 
+ }
+ li {
+  
+    display: -moz-box;
+   
+    border: 1px solid black;
+    
+    padding: 1%;
+    width: 500px;
+    text-align: center;color: blue;
+    background-color: cyan;
+    
+ }
+
